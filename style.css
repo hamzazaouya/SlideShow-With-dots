@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mySlides {
+    height: 40vh;
+    width: 100%;
+}
+
+.mySlides:nth-of-type(1){
+    background-color: red;
+}
+
+.mySlides:nth-of-type(2){
+    background-color: green;
+}
+
+.mySlides:nth-of-type(3){
+    background-color: black;
+}
+
+.dotes-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
